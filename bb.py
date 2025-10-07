@@ -5,6 +5,9 @@ choice = input("Enter choice (+,-,*,/): ")
 def add(a, b):
     return a + b
 
+def substract(a, b):
+    return a - b
+
 if choice == '+':
     print(f"Result: {add(num1, num2)}")
 elif choice == '-':
@@ -14,4 +17,4 @@ elif choice == '*':
 elif choice == '/':
     print(f"Result: {divide(num1, num2)}")
 else:
-    print("Invalid input for penny")
+    print("Invalid input")

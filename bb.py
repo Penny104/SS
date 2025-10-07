@@ -8,6 +8,9 @@ def add(a, b):
 def substract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
 if choice == '+':
     print(f"Result: {add(num1, num2)}")
 elif choice == '-':
